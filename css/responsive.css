@@ -1,0 +1,56 @@
+@media all and (max-width: 992px) and (min-width: 768px) {
+
+    .blogs-content,
+    .bloggers-blog,
+    .users-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 768px) and (min-width: 550px) {
+
+    .blogs-content,
+    .bloggers-blog,
+    .users-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width: 550px) and (min-width: 00px) {
+
+    .blogs-content,
+    .bloggers-blog,
+    .users-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #search-field {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .comments-area {
+        padding: 0rem;
+    }
+
+    .comments {
+        padding-left: .2rem;
+    }
+
+    .blogs-all-content {
+        padding: 0rem;
+    }
+
+    .blogs {
+        padding: 0rem;
+    }
+
+    .single-post-content {
+        padding: .3rem;
+    }
+}
